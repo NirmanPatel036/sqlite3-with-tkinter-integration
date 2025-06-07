@@ -1,4 +1,4 @@
-# Tkinter GUI Collection
+# Tkinter GUI Using SQLite3 (Basics to Advanced)
 
 ![Python](https://img.shields.io/badge/python-3.6%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/tkinter-built--in-green?style=for-the-badge&logo=python&logoColor=white)
@@ -7,7 +7,12 @@
 
 A comprehensive collection of Python GUI applications using Tkinter, organized by difficulty level from basic widgets to advanced database applications.
 
-## 📁 Project Structure
+### 📖 What's it about?
+This repository serves as a complete learning resource for Python GUI development using Tkinter. The resource is systematically organized into four categories - Basics, Intermediate, Advanced, and Sample Resources - providing a structured learning path for developers at any skill level.
+
+Whether you're a beginner taking your first steps into GUI programming or an experienced developer looking for reference implementations, this collection offers practical examples covering everything from simple button creation to complex database-driven applications. Each example is self-contained and demonstrates specific Tkinter concepts, making it easy to understand and adapt for your own projects.
+
+## 🏛️ Course Structure
 
 ### 📂 Basics
 - **`creating_buttons.py`** - Introduction to button widgets and event handling
@@ -107,7 +112,3 @@ python Advanced/database.py
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🖼️ Screenshots
-
-The Sample Pics directory contains various images that can be used to test the image viewer application and other GUI components that handle media files.
