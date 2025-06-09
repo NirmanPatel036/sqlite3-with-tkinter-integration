@@ -112,9 +112,10 @@ The application uses SQLite with two main tables:
 ## File Structure
 
 ```
-curative-pharmacy/
-├── main.py              # Main application file
-├── user.db             # SQLite database (auto-generated)
+project/
+├── main.py             # Main application file
+├── user.db             # SQLite database (user input dependent)
+├── medicine.db         # SQLite database (medicine record)
 ├── logo.png            # Application logo
 └── bill_*.txt          # Generated bill files
 ```
@@ -153,14 +154,6 @@ The system includes the following pre-configured medicine categories:
 | Acidity | ENO, Digene, Pantop | ₹35-120 |
 | Diabetes | Glucon-D, Diabetrol, Metformin | ₹55-180 |
 | Blood Pressure | Telma, Amlodipine, Losartan | ₹65-95 |
-
-## System Requirements
-
-- **Operating System**: Windows, macOS, or Linux
-- **Python Version**: 3.7 or higher
-- **RAM**: Minimum 2GB recommended
-- **Storage**: 50MB for application and database
-- **Display**: Minimum 800x600 resolution
 
 ## Error Handling
 
